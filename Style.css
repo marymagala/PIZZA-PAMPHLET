@@ -1,0 +1,52 @@
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center; 
+        }
+
+        img {
+        align-content: center;
+        height: 300px;
+        width: 300px;
+        border-radius: 2.25em;
+        margin: auto;
+        display: block;
+        }
+        .Small_pizza {
+           flex: 1;
+            border: 2px solid;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 1em;
+            background-color: chartreuse;
+        }
+        .Medium_pizza {
+           flex: 1;
+            border: 2px solid;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 1em;
+            background-color: darkslategrey;
+        }
+
+        .Large_pizza {
+           flex: 1;
+            border: 2px solid;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 1em;
+            background-color: gold;
+        }
+        @media (min-width: 768px) {
+            .pizzas {
+                display: flex;
+            }
+        } 
+
+        .footer {
+background-color: lightgoldenrodyellow;
+border: 2px solid beige;
+border-radius: 1em;
+padding: 1em;
+margin: 1em; }
