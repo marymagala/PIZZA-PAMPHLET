@@ -17,7 +17,7 @@ h1{
            flex: 1;
             border: 2px solid;
             padding: 1em;
-            margin: 1em;
+          /* margin: 1em;*/
             border-radius: 1em;
             background-color: coral;
         }
@@ -25,7 +25,7 @@ h1{
            flex: 1;
             border: 2px solid;
             padding: 1em;
-            margin: 1em;
+           /* margin: 1em;*/
             border-radius: 1em;
             background-color: darkslategrey;
         }
